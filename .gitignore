@@ -1,0 +1,27 @@
+# 敏感配置文件
+zzyl/zzyl-admin/src/main/resources/application-*.yml
+.env
+*.key
+*.pem
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 编译输出/依赖
+target/
+build/
+dist/
+node_modules/
+__pycache__/
+*.class
+
+# 日志文件
+*.log
+logs/
+
+# 编辑器配置文件
+.vscode/
+.idea/
+*.swp
+*.swo
